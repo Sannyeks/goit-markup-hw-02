@@ -6,3 +6,39 @@
 --background-color: #ffffff;
 --background-color-hero-footer: #2f303a;
 }
+ body{
+    front-famaly: "Roboto", sans-serif;
+    color: #212121;
+ }
+
+ .list{
+    list-style: none;
+ }
+
+ .link{
+    text-decoration: none;
+ }
+
+ /* -----------------HEADER------------- */
+ .header{
+    background-color: #ffffff;
+ }
+
+ .header-logo{
+
+ }
+ .heder-mail{
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 1.14;
+ letter-spacing: 0.02em;
+ color: var(--accent-color);
+ }
+ 
+ .header-tel {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14px;
+        letter-spacing: 0.02em;
+        color: var(--primary-text-color);
+ }
