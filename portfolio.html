@@ -13,8 +13,9 @@
   </head>
   <body>
     <!--Header-->
-    <nav>
-        <a class="header-logo link" href="./portfolio.html" lang="en"><button class="logo-button">Web</button>Studio</a>
+    <header class="header">
+      <nav class="menu-nav">
+        <a class="header-logo-text link" href="./index.html" lang="en"><span>Web</span>Studio</a>
         <ul class="header-list list">
           <li class="header-item">
             <a class="header-link link" href="./index.html">Студія</a>
@@ -27,12 +28,12 @@
           </li>
         </ul>
       </nav>
-      <ul class="header-list-inf list">
-        <li class="header-item-mail">
-          <a class="header-link-mail link" link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <ul class="contacts-list list">
+        <li class="сontact-item">
+          <a class="сontact-link link" link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li class="header-item-tel">
-          <a class="header-link-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+        <li class="сontact-item">
+          <a class="сontact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
@@ -40,20 +41,20 @@
 
     <!-- Portfolio Main-->
     <main>
-      <section class="hero-portfolio">
+      <section class="portfolio">
         <h1 class="visually-hidden">Наші Продукти</h1>
-        <ul class="subject-item">
-          <li class="subject-list list"> <button class="button-partfolio-all" type="button">Усі</button> </li>
-          <li  class="subject-list list"> <button class="button-partfolio" type="button">Веб-сайти</button> </li>
-          <li  class="subject-list list"> <button class="button-partfolio" type="button">Додатки</button> </li>
-          <li  class="subject-list list"> <button class="button-partfolio" type="button">Дизайн</button> </li>
-          <li  class="subject-list list"> <button class="button-partfolio" type="button">Маркетинг</button> </li>
+        <ul class="filter-btns-list list">
+          <li  class="filter-btns-item"> <button class="filter-btn current" type="button">Усі</button> </li>
+          <li  class="filter-btns-item"> <button class="filter-btn" type="button">Веб-сайти</button> </li>
+          <li  class="filter-btns-item"> <button class="filter-btn" type="button">Додатки</button> </li>
+          <li  class="filter-btns-item"> <button class="filter-btn" type="button">Дизайн</button> </li>
+          <li  class="filter-btns-item"> <button class="filter-btn" type="button">Маркетинг</button> </li>
         </ul>
 
 
          <!-- Our Portfolio Work-->
-        <ul class="project-item">
-          <li class="project-list list">
+        <ul class="project-list">
+          <li class="project-item list">
             <a class="project-search link" href="">
             <img
               src="./images/technocrak1.jpg"
@@ -62,12 +63,12 @@
               height="294"
             />
             <h3 class="project-name">Технокряк</h3>
-            <p class="projects-text">Веб-сайт</p>
+            <p class="project-link">Веб-сайт</p>
             </a>
           </li>
 
-          <li class="project-list list">
-            <a class="project-search link" href="">
+          <li class="project-item list">
+            <a class="project-link link" href="">
             <img
               src="./images/poster2.jpg"
               alt="Дизайн проекту постеру для сайту"
@@ -79,8 +80,8 @@
           </li>
 
           
-          <li class="project-list list">
-            <a class="project-search link" href="">
+          <li class="project-item list">
+            <a class="project-link link" href="">
             <img
               src="./images/seafood3.jpg"
               alt=" Додаток для ресторану"
@@ -93,8 +94,8 @@
           </li>
 
           
-          <li class="project-list list">
-            <a class="project-search link" href="">
+          <li class="project-item list">
+            <a class="project-link link" href="">
             <img src="./images/prime4.jpg" alt="Маркетинг прокт Прайм" width="370" height="294" />
             <h3 class="project-name">Проект Prime</h3>
             <p class="projects-text">Маркетинг</p>
@@ -102,8 +103,8 @@
           </li>
 
          
-          <li class="project-list list">
-             <a class="project-search link" href="">
+          <li class="project-item list">
+             <a class="project-link link" href="">
             <img src="./images/boxex5.jpg" alt="Додаток проект Боксес" width="370" height="294" />
             <h3 class="project-name">Проект Boxes</h3>
             <p class="projects-text">Додаток</p>
@@ -111,8 +112,8 @@
           </li>
 
           
-          <li class="project-list list">
-            <a class="project-search link" href="">
+          <li class="project-item list">
+            <a class="project-link link" href="">
             <img
               src="./images/inspiration6.jpg"
               alt="Розробка веб-сайту Натхнення не має кордонів"
@@ -125,8 +126,8 @@
           </li>
 
           
-          <li class="project-list list">
-            <a class="project-search link" href="">
+          <li class="project-item list">
+            <a class="project-link link" href="">
             <img
               src="./images/limitededition7.jpg"
               alt="Дизайн видання Лімітед"
@@ -139,8 +140,8 @@
           </li>
 
           
-          <li class="project-list list">
-            <a class="project-search link" href="">
+          <li class="project-item list">
+            <a class="project-link link" href="">
             <img src="./images/lab8.jpg" alt="Маркетинг проект Лаб" width="370" height="240" />
             <h3 class="project-name">Проект LAB</h3>
             <p class="projects-text">Маркетинг</p>
@@ -148,8 +149,8 @@
           </li>
 
           
-          <li class="project-list list">
-            <a class="project-search link" href="">
+          <li class="project-item list">
+            <a class="project-link link" href="">
             <img
               src="./images/growingbusiness9.jpg"
               alt="Додаток Зростаючий Бізнес"
@@ -166,19 +167,19 @@
 
 
     <!-- Portfolio Footer-->
-     <footer class="footer">
-      <a class="footer-logo link" href="./index.html" lang="en">Web<button class="footer-button">Studio</button></a>
+    <footer class="footer">
+      <a class="footer-logo-text link" href="./index.html" lang="en"><span>Web</span>Studio</a>
       <address class="address"> 
-        <ul class="address-list list">
-          <li class="address-list-item">
-            <a class="address-list-street link" href="">м. Київ, пр-т Лесі Українки, 26</a>
+        <ul class="footer-contacts-list list">
+          <li class="footer-contact-item">
+            <a class="footer-address-link link" href="">м. Київ, пр-т Лесі Українки, 26</a>
           </li>
-          <li class="address-list-item">
-            <a class="address-list-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="address-list-item">
-            <a class="address-list-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
+          <li class="footer-contact-item">
+          <a class="footer-сontact-link link" link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="footer-contact-item">
+          <a class="footer-сontact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
         </ul>
       </address>
     </footer>
