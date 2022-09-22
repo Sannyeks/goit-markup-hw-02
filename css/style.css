@@ -69,14 +69,26 @@ span{
    color: var(--title-text-color);
  }
 
- .header-link{
-   color: var(--title-text-color) ;
+ .header-link.link{
+      line-height: 1.14px;
+      letter-spacing: 0.02em;
+      color:var(--title-text-color);
+ }
+
+  .header-list, .header-link.link:hover,
+  .header-list, .header-link.link:focus {
+     color: var(--accent-color);
+  }
+
+ .header-link.link.current{
+   color: var(--accent-color);
+   line-height: 1.14;
         font-weight: 500;
         letter-spacing: 0.02em;
  }
 
-  .header-list, .header-link:hover,
-  .header-list, .header-link:focus{
+  .header-list, .header-link.link.current:hover,
+  .header-list, .header-link.link.current:focus{
     color: var(--accent-color);
  }
 
@@ -108,7 +120,7 @@ span{
         color: var(--white-color);
 }
 
- .hero-btn{
+ .hero-btn.button{
         font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.06em;
@@ -117,8 +129,15 @@ span{
         cursor: pointer;
 }
 
+.hero,.hero-btn.button:hover,
+.hero,.hero-btn.button:focus {
+   color: var(--accent-color);
+
+}
+
 /* -----------------Our Advantage------------- */
 .about-title{
+   font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
@@ -140,7 +159,7 @@ text-align: center;
 
 /* ---------------------Our Team---------------------- */
 
-.team-title-list{
+.team-title{
    font-weight: 500;
    font-size: 16px;
    line-height: 1.19;
@@ -148,7 +167,6 @@ text-align: center;
 }
 .team-text{
    color: var(--primary-text-color);
-   font-weight: 400;
    font-size: 16px;
    line-height: 1.19;
 }
@@ -182,11 +200,29 @@ text-align: center;
 
 
 /*----------Portfolio Main--------------- */
-.filter-btn{
+.filter-btns-list.list{background-color: var(--background-color);}
+
+.filter-btn.button.active{
+      font-size: 16px;
       line-height: 1.62;
       text-align: center;
-      color: var(--title-text-color);
       cursor: pointer;
+      background-color: var(--accent-color);
+      color: var(--white-color);
+      letter-spacing: 0.03em;
+}
+
+.filter-btn.button{
+   font-size: 16px;
+      line-height: 1.62;
+      text-align: center;
+      cursor: pointer;
+      letter-spacing: 0.03em;
+}
+.filter-btns-list,.filter-btn.button:hover,
+.filter-btns-list,.filter-btn.button:focus {
+   color: var(--white-color);
+   background-color: var(--accent-color);
 }
 
 
