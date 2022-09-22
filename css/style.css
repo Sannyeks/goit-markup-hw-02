@@ -121,6 +121,7 @@ span{
 }
 
  .hero-btn.button{
+   font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.06em;
@@ -203,6 +204,7 @@ text-align: center;
 .filter-btns-list.list{background-color: var(--background-color);}
 
 .filter-btn.button.active{
+   font-weight: 700;
       font-size: 16px;
       line-height: 1.62;
       text-align: center;
